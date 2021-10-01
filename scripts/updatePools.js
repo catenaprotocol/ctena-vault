@@ -1,7 +1,7 @@
 // To run: node --experimental-specifier-resolution=node updatePools.js
 
 // FIXME: Adapt updatePools to multichain.
-import { bscPools } from '../src/features/configure/pools.js';
+import { bscPools } from '../src/features/configure/vault/bsc_pools.js';
 import { fetchStrategy } from '../src/features/web3/fetchStrategy.js';
 import Web3 from 'web3';
 import axios from 'axios';
