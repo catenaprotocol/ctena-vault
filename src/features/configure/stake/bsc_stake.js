@@ -11,7 +11,6 @@ const moonpot = {
   },
 };
 
-
 export const bscStakePools = [
   {
     id: 'ribbon-bnb',
@@ -23,7 +22,7 @@ export const bscStakePools = [
     tokenOracle: 'tokens',
     tokenOracleId: 'CTENA',
     earnedToken: 'CTENA',
-    earnedTokenDecimals: 18,
+    earnedTokenDecimals: 9,
     earnedTokenAddress: '0x8f4fc37bff97e6e7fd4355a5df76a486ac1e2e1c',
     earnContractAddress: '0x2C3545ADF550B5eA4fF86101a1a1Fbf950049f53',
     earnContractAbi: govPoolABI,
@@ -46,7 +45,7 @@ export const bscStakePools = [
       },
     ],
   },
- /*  {
+  /*  {
     id: 'ribbon-bnb',
     name: 'RIBBON',
     logo: 'single-assets/BIFI.png',
