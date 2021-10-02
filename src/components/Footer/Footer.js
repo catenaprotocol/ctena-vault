@@ -44,11 +44,11 @@ const Footer = () => {
           <span>{t('source')}</span>
         </a>
       </div>
-{/* 
+
       <div className={classes.column}>
         <div className={classes.title}>{t('products')}</div>
         <a
-          href="https://gov.beefy.finance"
+          href="https://governance.ctena.finance"
           target="_blank"
           rel="noopener noreferrer"
           className={classes.link}
@@ -58,6 +58,46 @@ const Footer = () => {
         </a>
 
         <a
+          href="http://nakamoto.ctena.finance"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
+          <span>nakamoto index</span>
+        </a>
+
+        <a
+          href="http://cdefi.ctena.finance"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
+          <span>cDEFI index</span>
+        </a>
+
+        <a
+          href="http://calt.ctena.finance"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
+          <span>cALT index</span>
+        </a>
+
+        <a
+          href="http://cstable.ctena.finance"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
+          <span>cSTABLE index</span>
+        </a>
+
+        {/*  <a
           href="https://vote.beefy.finance"
           target="_blank"
           rel="noopener noreferrer"
@@ -66,18 +106,18 @@ const Footer = () => {
           <i className={`fas fa-vote-yea ${classes.linkIcon}`}></i>
           <span>vote</span>
         </a>
-
+ */}
         <a
-          href="https://app.beefy.finance"
+          href="https://vault.ctena.finance"
           target="_blank"
           rel="noopener noreferrer"
           className={classes.link}
         >
           <i className={`fas fa-hand-holding-usd ${classes.linkIcon}`}></i>
-          <span>app</span>
+          <span>vault</span>
         </a>
       </div>
- */}
+
       <div className={classes.column}>
         <div className={classes.title}>{t('socials')}</div>
         <a

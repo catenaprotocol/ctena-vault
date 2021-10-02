@@ -55,14 +55,18 @@ const Header = ({ links, isNightMode, setNightMode }) => {
         </Link>
 
         <div className={classes.middleNav}>
-         {/*  <Hidden smDown>
-            {renderLink('vote', 'vote', 'vote-yea', classes)}
-            {renderLink('dashboard', t('stats'), 'chart-bar', classes)}
+          <Hidden smDown>
+            {/* {renderLink('vote', 'vote', 'vote-yea', classes)} */}
+            {/*             {renderLink('dashboard', t('stats'), 'chart-bar', classes)}
+             */}{' '}
             {renderLink('docs', 'docs', 'book', classes)}
+            {renderLink('governance', 'gov', 'landmark', classes)}
           </Hidden>
-          {renderLink('buy', t('buy'), 'dollar-sign', classes)} */}
+          {renderLink('buy', t('buy'), 'dollar-sign', classes)}
           <Link className={classes.btnBoost} to={`/${chain}/stake`}>
-            <img alt="Boost" src={require('images/stake/boost.svg')} />
+            Stake
+            {/*             <img alt="Boost" src={require('images/stake/boost.svg')} />
+             */}{' '}
           </Link>
         </div>
 
@@ -134,7 +138,16 @@ const LinkSidebar = ({ name, label, icon, classes }) => (
 );
 
 const getLinkUrl = name => {
-  return name === 'buy' ? getNetworkBuyUrl() : `https://${name}.beefy.finance`;
+  if (name === 'buy') {
+    getNetworkBuyUrl();
+  } else if (name === 'docs') {
+    return 'https://catena-protocol.gitbook.io/catena-protocol/';
+  } else {
+    return `https://${name}.ctena.finance`;
+  }
+  /* 
+  name === 'buy' ? getNetworkBuyUrl() : `https://${name}.ctena.finance`;
+  return name === 'docs' ? 'https://catena-protocol.gitbook.io/catena-protocol/' : `https://${name}.ctena.finance`; */
 };
 
 export default Header;
