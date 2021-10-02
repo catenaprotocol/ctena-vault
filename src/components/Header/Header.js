@@ -61,8 +61,8 @@ const Header = ({ links, isNightMode, setNightMode }) => {
              */}{' '}
             {renderLink('docs', 'docs', 'book', classes)}
             {renderLink('governance', 'gov', 'landmark', classes)}
+            {renderLink('buy', t('buy'), 'dollar-sign', classes)}
           </Hidden>
-          {renderLink('buy', t('buy'), 'dollar-sign', classes)}
           <Link className={classes.btnBoost} to={`/${chain}/stake`}>
             Stake
             {/*             <img alt="Boost" src={require('images/stake/boost.svg')} />
@@ -139,7 +139,7 @@ const LinkSidebar = ({ name, label, icon, classes }) => (
 
 const getLinkUrl = name => {
   if (name === 'buy') {
-    getNetworkBuyUrl();
+    return getNetworkBuyUrl();
   } else if (name === 'docs') {
     return 'https://catena-protocol.gitbook.io/catena-protocol/';
   } else {

@@ -1,27 +1,4 @@
 export const bscPools = [
-  /* {
-    id: 'ribbon-maxi',
-    logo: 'single-assets/BIFI.png',
-    name: 'RIBBON Maxi',
-    token: 'RIBBON',
-    tokenDescription: 'Beefy.Finance',
-    tokenAddress: '0x32e5bE58eda6b01768E0375c3f1f451b06393460',
-    tokenDecimals: 18,
-    earnedToken: 'RIBBON MAXI VAULT',
-    earnedTokenAddress: '0x6682bDe049cD20795Da54157f9fCFB424DA965a2',
-    earnContractAddress: '0x6682bDe049cD20795Da54157f9fCFB424DA965a2',
-    pricePerFullShare: 1,
-    tvl: 0,
-    oracle: 'tokens',
-    oracleId: 'BIFI',
-    oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
-    platform: 'Beefy.Finance',
-    assets: ['BIFI'],
-    withdrawalFee: '0.05%',
-    buyTokenUrl: 'https://app.1inch.io/#/56/swap/BNB/BIFI',
-  }, */
   {
     id: 'cakev2-cake-bnb',
     name: 'CAKE-BNB LP',
@@ -47,4 +24,4 @@ export const bscPools = [
     buyTokenUrl:
       'https://pancakeswap.finance/swap?outputCurrency=0x5B6DcF557E2aBE2323c48445E8CC948910d8c2c9',
   },
-]
+];

@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 import BigNumber from 'bignumber.js';
 import { useConnectWallet } from '../../../home/redux/hooks';
 import { useFetchApys, useFetchBalances, useFetchVaultsData } from '../../redux/hooks';
-import { byDecimals } from 'features/helpers/bignumber';
+import { byDecimals, byDecimals9 } from 'features/helpers/bignumber';
 import { formatTvl } from 'features/helpers/format';
 import HomeLink from './HomeLink/HomeLink';
 import PoolActions from '../PoolActions/PoolActions';

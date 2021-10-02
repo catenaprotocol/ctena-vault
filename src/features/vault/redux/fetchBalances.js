@@ -7,7 +7,7 @@ import {
 } from './constants';
 import { MultiCall } from 'eth-multicall';
 import { erc20ABI, multicallABI, uniswapV2PairABI } from 'features/configure';
-import { byDecimals } from 'features/helpers/bignumber';
+import { byDecimals, byDecimals9 } from 'features/helpers/bignumber';
 import { getNetworkMulticall } from 'features/helpers/getNetworkData';
 
 export function fetchBalances({ address, web3, tokens }) {
@@ -155,7 +155,7 @@ export function useFetchBalances() {
   );
 
   const tokenBalance = tokenSymbol => {
-    return byDecimals(tokens[tokenSymbol]?.tokenBalance || 0, tokens[tokenSymbol].decimals);
+    return byDecimals9(tokens[tokenSymbol]?.tokenBalance || 0, tokens[tokenSymbol].decimals);
   };
 
   const boundPairReverves = useCallback(

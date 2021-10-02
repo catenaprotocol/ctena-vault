@@ -150,6 +150,11 @@ export function byDecimals(number, tokenDecimals = 18) {
   return new BigNumber(number).dividedBy(decimals).decimalPlaces(tokenDecimals);
 }
 
+export function byDecimals9(number, tokenDecimals = 9) {
+  const decimals = new BigNumber(10).exponentiatedBy(tokenDecimals);
+  return new BigNumber(number).dividedBy(decimals).decimalPlaces(tokenDecimals);
+}
+
 export function calculateReallyNum(total, sliderNum) {
   if (sliderNum === undefined) {
     return byDecimals(0, 0).toFormat(8);

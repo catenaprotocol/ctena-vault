@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 import BigNumber from 'bignumber.js';
 import { makeStyles } from '@material-ui/core/styles';
 import { formatTvl } from 'features/helpers/format';
-import { byDecimals } from 'features/helpers/bignumber';
+import { byDecimals9 } from 'features/helpers/bignumber';
 import styles from './styles';
 import PoolPaused from './PoolPaused/PoolPaused';
 import PoolTitle from './PoolTitle/PoolTitle';
@@ -62,7 +62,7 @@ const PoolSummary = ({
 
   const balanceUsd =
     balanceSingle > 0 && fetchVaultsDataDone ? formatTvl(balanceSingle, pool.oraclePrice) : '';
-  const deposited = byDecimals(
+  const deposited = byDecimals9(
     sharesBalance.multipliedBy(new BigNumber(pool.pricePerFullShare)),
     pool.tokenDecimals
   );

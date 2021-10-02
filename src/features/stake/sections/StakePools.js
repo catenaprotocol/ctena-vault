@@ -37,7 +37,7 @@ export default function StakePools() {
     <Grid container>
       <Grid item xs={12}>
         <div className={classes.launchpool}>
-          <img alt="Launchpool" src={require('images/stake/launchpool.png')} />
+          {/* <img alt="Launchpool" src={require('images/stake/launchpool.png')} /> */}
         </div>
       </Grid>
       <Grid item xs={12} style={{ paddingBottom: '20px', textAlign: 'right' }}>
@@ -52,6 +52,7 @@ export default function StakePools() {
           <StakePoolsPool key={pool.id} pool={pool} showPools={showPools} classes={classes} t={t} />
         ))}
       </Grid>
+      {/* 
       <Grid container spacing={4} justify={'center'}>
         <Grid className={classes.faq} item xs={12} lg={9}>
           <Accordion square expanded={expanded === 'faq-1'} onChange={handleChange('faq-1')}>
@@ -283,6 +284,7 @@ export default function StakePools() {
           <Disclaimer />
         </Grid>
       </Grid>
+     */}
     </Grid>
   );
 }
