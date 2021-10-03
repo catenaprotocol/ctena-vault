@@ -24,4 +24,29 @@ export const bscPools = [
     buyTokenUrl:
       'https://pancakeswap.finance/swap?outputCurrency=0x5B6DcF557E2aBE2323c48445E8CC948910d8c2c9',
   },
+  {
+    id: 'cakev2-link-bnb',
+    logo: 'bnb-pairs/LINK-BNB.svg',
+    name: 'LINK-BNB LP',
+    token: 'LINK-BNB LP2',
+    tokenDescription: 'PancakeSwap',
+    tokenAddress: '0x824eb9faDFb377394430d2744fa7C42916DE3eCe',
+    tokenDecimals: 18,
+    earnedToken: 'mooCakeV2LINK-BNB',
+    earnedTokenAddress: '0xA510d419993d4FEbDC36F04727f33064Db0D64c2',
+    earnContractAddress: '0xA510d419993d4FEbDC36F04727f33064Db0D64c2',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'cakev2-link-bnb',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'PancakeSwap',
+    assets: ['LINK', 'BNB'],
+    addLiquidityUrl:
+      'https://pancakeswap.finance/add/BNB/0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd',
+    buyTokenUrl:
+      'https://pancakeswap.finance/swap?outputCurrency=0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd',
+  },
 ];
