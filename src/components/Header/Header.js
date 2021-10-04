@@ -60,6 +60,7 @@ const Header = ({ links, isNightMode, setNightMode }) => {
             {/*             {renderLink('dashboard', t('stats'), 'chart-bar', classes)}
              */}{' '}
             {renderLink('docs', 'docs', 'book', classes)}
+            {renderLink('dashboard', 'dashboard', 'chart-bar', classes)}
             {renderLink('governance', 'gov', 'landmark', classes)}
             {renderLink('buy', t('buy'), 'dollar-sign', classes)}
           </Hidden>
