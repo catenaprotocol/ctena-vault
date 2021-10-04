@@ -32,7 +32,7 @@ export const bscPools = [
     tokenDescription: 'PancakeSwap',
     tokenAddress: '0x824eb9faDFb377394430d2744fa7C42916DE3eCe',
     tokenDecimals: 18,
-    earnedToken: 'mooCakeV2LINK-BNB',
+    earnedToken: 'Ctena Cake LINK-BNB Vault',
     earnedTokenAddress: '0xA510d419993d4FEbDC36F04727f33064Db0D64c2',
     earnContractAddress: '0xA510d419993d4FEbDC36F04727f33064Db0D64c2',
     pricePerFullShare: 1,
