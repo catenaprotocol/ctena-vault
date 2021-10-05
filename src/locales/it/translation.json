@@ -34,7 +34,7 @@
   "Vault-DepositScenario": "Il deposito prevede che:",
   "Vault-DepositScenarioSwap": "Per bilanciare la liquidità della coppia, verranno scambiati {{swapIn}} per {{swapOut}} (±{{slippageTolerance}} di slippage e di commissione di deposito, se presenti)",
   "Vault-DepositScenarioAddLiquidity": "La liquidità sarà utilizzata per ricevere {{poolToken}}",
-  "Vault-DepositScenarioDepositToVault": "I {{poolToken}} ricevuti saranno depositati nella cassaforte di Beefy",
+  "Vault-DepositScenarioDepositToVault": "I {{poolToken}} ricevuti saranno depositati nella cassaforte di Ctena",
   "Vault-DepositScenarioReturnDust": "I token non utilizzati torneranno nel tuo portafoglio.",
   "Vault-Withdrawing": "Prelievo in corso...",
   "Vault-WithdrawButton": "Preleva",
