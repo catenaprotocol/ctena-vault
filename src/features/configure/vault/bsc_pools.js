@@ -16,7 +16,7 @@ export const bscPools = [
     oracle: 'tokens',
     oracleId: 'BTCB',
     oraclePrice: 0,
-    depositsPaused: true,
+    depositsPaused: false,
     status: 'active',
     platform: 'Venus',
     assets: ['BTCB'],
