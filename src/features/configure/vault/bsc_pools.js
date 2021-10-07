@@ -1,6 +1,6 @@
 export const bscPools = [
   {
-    id: 'venus-btc',
+    id: 'venus-btc-eol',
     logo: 'single-assets/BTCB.svg',
     name: 'BTCB',
     token: 'BTCB',
