@@ -1,5 +1,32 @@
 export const bscPools = [
   {
+    id: 'auto-btcb-usdt',
+    logo: 'usdt-pairs/BTCB-USDT.svg',
+    name: 'BTCB-USDT LP',
+    token: 'BTCB-USDT Mdex LP',
+    tokenDescription: 'Mdex (Autofarm)',
+    tokenAddress: '0xda28Eb7ABa389C1Ea226A420bCE04Cb565Aafb85',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'CtenaBTCBUSDTLP',
+    earnedTokenAddress: '0xb4095B25dE0F67EE0Dd5317650E67232Ff1D2Cc0',
+    earnContractAddress: '0xb4095B25dE0F67EE0Dd5317650E67232Ff1D2Cc0',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'auto-btcb-usdt',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Autofarm',
+    assets: ['BTCB', 'USDT'],
+    depositFee: '<0.1%',
+    addLiquidityUrl:
+      'https://bsc.mdex.com/#/add/0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c/0x55d398326f99059fF775485246999027B3197955',
+    buyTokenUrl:
+      'https://bsc.mdex.com/#/swap?inputCurrency=0x55d398326f99059ff775485246999027b3197955&outputCurrency=0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
+  },
+  {
     id: 'venus-btcb',
     logo: 'single-assets/BTCB.svg',
     name: 'BTCB',
