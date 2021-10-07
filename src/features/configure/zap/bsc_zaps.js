@@ -6,6 +6,13 @@ export const bscZaps = [
     ammFactory: '0xca143ce32fe78f1f7019d7d551a6402fc5350c73',
     ammPairInitHash: '0x00fb7f630766e6a796048ea87d01acd3068e8ff67d078148a3fa3f4a84f69bd5',
   },
+  {
+    // MDEX
+    zapAddress: '0xF098b299Da91f5d9287Caf2c0Cd25f33a8A43164',
+    ammRouter: '0x7dae51bd3e3376b8c7c4900e9107f12be3af1ba8',
+    ammFactory: '0x3cd1c46068daea5ebb0d3f55f6915b10648062b8',
+    ammPairInitHash: '0x0d994d996174b05cfc7bed897dc1b20b4c458fc8d64fe98bc78b3c64a6b4d093',
+  },
   /* {
     // ApeSwap
     zapAddress: '0x10ab57c5889a00c497ce6be7ce142bb9a613e362',
@@ -20,11 +27,5 @@ export const bscZaps = [
     ammFactory: '0xd76d8C2A7CA0a1609Aea0b9b5017B3F7782891bf',
     ammPairInitHash: '0xe7da666f616ba3bdb18c6908b22d556a41659bdd652762c246b8d1fa4f7506b4',
   },
-  {
-    // MDEX
-    zapAddress: '0x781BF7b6d2a4C7014AB4EEAb4Bd10af540b8e020',
-    ammRouter: '0x7dae51bd3e3376b8c7c4900e9107f12be3af1ba8',
-    ammFactory: '0x3cd1c46068daea5ebb0d3f55f6915b10648062b8',
-    ammPairInitHash: '0x0d994d996174b05cfc7bed897dc1b20b4c458fc8d64fe98bc78b3c64a6b4d093',
-  }, */
+   */
 ];
