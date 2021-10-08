@@ -1,5 +1,31 @@
 export const bscPools = [
   {
+    id: 'cakev2-btcst-bnb',
+    logo: 'bnb-pairs/BTCST-BNB.svg',
+    name: 'BTCST-BNB LP',
+    token: 'BTCST-BNB LP2',
+    tokenDescription: 'PancakeSwap',
+    tokenAddress: '0xB2678C414ebC63c9CC6d1a0fC45f43E249B50fdE',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'CtenaCakeBTCST-BNB',
+    earnedTokenAddress: '0x9b626a683ab24A97C8E1441e55EEEda1242cD431',
+    earnContractAddress: '0x9b626a683ab24A97C8E1441e55EEEda1242cD431',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'cakev2-btcst-bnb',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'PancakeSwap',
+    assets: ['BTCST', 'BNB'],
+    addLiquidityUrl:
+      'https://pancakeswap.finance/add/BNB/0x78650b139471520656b9e7aa7a5e9276814a38e9',
+    buyTokenUrl:
+      'https://pancakeswap.finance/swap?outputCurrency=0x78650b139471520656b9e7aa7a5e9276814a38e9',
+  },
+  {
     id: 'auto-btcb-usdt',
     logo: 'usdt-pairs/BTCB-USDT.svg',
     name: 'BTCB-USDT LP',
