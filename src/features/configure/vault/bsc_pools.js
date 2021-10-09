@@ -1,5 +1,30 @@
 export const bscPools = [
   {
+    id: 'banana-eth-bnb',
+    name: 'ETH-BNB LP',
+    token: 'ETH-BNB ALP',
+    tokenDescription: 'ApeSwap',
+    tokenAddress: '0xA0C3Ef24414ED9C9B456740128d8E63D016A9e11',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'CtenaApeETH-BNB',
+    earnedTokenAddress: '0x3f20751FA70BD8bA275657D2fCA61A3E4d933905',
+    earnContractAddress: '0x3f20751FA70BD8bA275657D2fCA61A3E4d933905',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'banana-eth-bnb',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'ApeSwap',
+    assets: ['ETH', 'BNB'],
+    addLiquidityUrl:
+      'https://dex.apeswap.finance/#/add/ETH/0x2170Ed0880ac9A755fd29B2688956BD959F933F8',
+    buyTokenUrl:
+      'https://dex.apeswap.finance/#/swap?outputCurrency=0x2170Ed0880ac9A755fd29B2688956BD959F933F8',
+  },
+  {
     id: 'cakev2-btcst-bnb',
     logo: 'bnb-pairs/BTCST-BNB.svg',
     name: 'BTCST-BNB LP',

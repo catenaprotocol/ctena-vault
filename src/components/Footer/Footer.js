@@ -25,6 +25,16 @@ const Footer = () => {
         </a>
 
         <a
+          href="https://catenaprotocol.kampsite.co/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          <i className={`fas fa-vote-yea  ${classes.linkIcon}`}></i>
+          <span>{t('proposal')}</span>
+        </a>
+
+        <a
           href="https://medium.com/catenaprotocol"
           target="_blank"
           rel="noopener noreferrer"

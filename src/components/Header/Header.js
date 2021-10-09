@@ -62,7 +62,12 @@ const Header = ({ links, isNightMode, setNightMode }) => {
             {renderLink('docs', 'docs', 'book', classes)}
             {renderLink('dashboard', 'dashboard', 'chart-bar', classes)}
             {renderLink('governance', 'gov', 'landmark', classes)}
+            {/*  {renderLink('cdefi', 'cDEFI', 'hand-holding-usd', classes)}
+            {renderLink('calt', 'cALT', 'hand-holding-usd', classes)}
+            {renderLink('cstable', 'cSTABLE', 'hand-holding-usd', classes)}
+            {renderLink('nakamoto', 'NAKAMOTO', 'hand-holding-usd', classes)} */}
             {renderLink('buy', t('buy'), 'dollar-sign', classes)}
+            {renderLink('proposal', 'proposal', 'vote-yea', classes)}
           </Hidden>
           <Link className={classes.btnBoost} to={`/${chain}/stake`}>
             Stake
@@ -143,6 +148,16 @@ const getLinkUrl = name => {
     return getNetworkBuyUrl();
   } else if (name === 'docs') {
     return 'https://catena-protocol.gitbook.io/catena-protocol/';
+  } else if (name === 'cdefi') {
+    return 'http://cdefi.ctena.finance';
+  } else if (name === 'calt') {
+    return 'http://calt.ctena.finance';
+  } else if (name === 'nakamoto') {
+    return 'http://nakamoto.ctena.finance';
+  } else if (name === 'cstable') {
+    return 'http://cstable.ctena.finance';
+  } else if (name === 'proposal') {
+    return 'https://ctenafinance.kampsite.co/';
   } else {
     return `https://${name}.ctena.finance`;
   }
