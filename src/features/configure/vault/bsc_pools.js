@@ -1,5 +1,30 @@
 export const bscPools = [
   {
+    id: 'cakev2-btcb-bnb',
+    logo: 'bnb-pairs/BTCB-BNB.svg',
+    name: 'BTCB-BNB LP',
+    token: 'BTCB-BNB LP2',
+    tokenDescription: 'PancakeSwap',
+    tokenAddress: '0x61EB789d75A95CAa3fF50ed7E47b96c132fEc082',
+    tokenDecimals: 18,
+    earnedToken: 'CtenaCakeBTCB-BNB',
+    earnedTokenAddress: '0x2872BA8969083d77469a54aAa585f13677008D8c',
+    earnContractAddress: '0x2872BA8969083d77469a54aAa585f13677008D8c',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'cakev2-btcb-bnb',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'PancakeSwap',
+    assets: ['BTCB', 'BNB'],
+    addLiquidityUrl:
+      'https://pancakeswap.finance/add/BNB/0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
+    buyTokenUrl:
+      'https://pancakeswap.finance/swap?outputCurrency=0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
+  },
+  {
     id: 'banana-eth-bnb',
     name: 'ETH-BNB LP',
     token: 'ETH-BNB ALP',
