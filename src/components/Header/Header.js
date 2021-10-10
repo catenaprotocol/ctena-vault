@@ -112,7 +112,13 @@ const Header = ({ links, isNightMode, setNightMode }) => {
           <div className={classes.appResponsive}>{links}</div>
           <div style={{ textAlign: 'center' }}>
             <LinkSidebar name="governance" label="gov" icon="vote-yea" classes={classes} />
-            <LinkSidebar name="dashboard" label={t('stats')} icon="chart-bar" classes={classes} />
+            <LinkSidebar
+              name="dashboard"
+              label={t('dashboard')}
+              icon="chart-bar"
+              classes={classes}
+            />
+            <LinkSidebar name="stats" label={t('stats')} icon="chart-bar" classes={classes} />
             <LinkSidebar name="docs" label="docs" icon="book" classes={classes} />
             <LinkSidebar name="buy" label={t('buy')} icon="dollar-sign" classes={classes} />
             <IconButton onClick={setNightMode} className={classes.icon}>
