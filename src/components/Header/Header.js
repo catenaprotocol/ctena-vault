@@ -155,6 +155,8 @@ const getLinkUrl = name => {
     return getNetworkBuyUrl();
   } else if (name === 'docs') {
     return 'https://catena-protocol.gitbook.io/catena-protocol/';
+  } else if (name === 'stats') {
+    return 'http://161.97.157.244:3001';
   } else if (name === 'cdefi') {
     return 'http://cdefi.ctena.finance';
   } else if (name === 'calt') {
