@@ -12395,31 +12395,6 @@ export const bscPools = [
   },
 
   {
-    id: 'venus-btcb-eol',
-    logo: 'single-assets/BTCB.svg',
-    name: 'BTCB',
-    token: 'BTCB',
-    tokenDescription: 'Venus',
-    tokenAddress: '0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c',
-    tokenDecimals: 18,
-    tokenDescriptionUrl: '#',
-    earnedToken: 'mooVenusBTCB',
-    earnedTokenAddress: '0x7255Ae13BA4484eD33fB48c4b833000dC12888B4',
-    earnContractAddress: '0x7255Ae13BA4484eD33fB48c4b833000dC12888B4',
-    pricePerFullShare: 1,
-    tvl: 0,
-    oracle: 'tokens',
-    oracleId: 'BTCB',
-    oraclePrice: 0,
-    depositsPaused: true,
-    status: 'eol',
-    platform: 'Venus',
-    assets: ['BTCB'],
-    buyTokenUrl:
-      'https://pancakeswap.finance/swap?outputCurrency=0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c',
-  },
-
-  {
     id: 'cake-dexe-busd',
     logo: 'busd-pairs/DEXE-BUSD.svg',
     name: 'DEXE-BUSD LP',
