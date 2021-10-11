@@ -125,7 +125,7 @@ export const bscPools = [
     buyTokenUrl:
       'https://pancakeswap.finance/swap?outputCurrency=0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd',
   },
-  {
+  /* {
     id: 'mdex-usdt-btcb-eol',
     name: 'USDT-BTCB LP',
     token: 'USDT-BTCB LP',
@@ -196,7 +196,6 @@ export const bscPools = [
     assets: ['BNB'],
     withdrawalFee: '0.05%',
   },
-
   {
     id: 'venus-wbnb-eol',
     logo: 'single-assets/WBNB.svg',
@@ -221,5 +220,5 @@ export const bscPools = [
     withdrawalFee: '0.05%',
     buyTokenUrl:
       'https://pancakeswap.finance/swap?outputCurrency=0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
-  },
+  }, */
 ];
