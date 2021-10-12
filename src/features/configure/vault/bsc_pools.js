@@ -19,7 +19,7 @@ export const bscPools = [
     status: 'active',
     platform: 'PancakeSwap',
     assets: ['CAKE'],
-    withdrawalFee: '0%',
+    withdrawalFee: '0.1%',
     buyTokenUrl:
       'https://pancakeswap.finance/swap?outputCurrency=0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
   },
@@ -43,6 +43,7 @@ export const bscPools = [
     status: 'active',
     platform: 'PancakeSwap',
     assets: ['BTCB', 'BNB'],
+    withdrawalFee: '0.1%',
     addLiquidityUrl:
       'https://pancakeswap.finance/add/BNB/0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
     buyTokenUrl:
@@ -68,6 +69,7 @@ export const bscPools = [
     status: 'active',
     platform: 'ApeSwap',
     assets: ['ETH', 'BNB'],
+    withdrawalFee: '0.1%',
     addLiquidityUrl:
       'https://dex.apeswap.finance/#/add/ETH/0x2170Ed0880ac9A755fd29B2688956BD959F933F8',
     buyTokenUrl:
@@ -94,6 +96,7 @@ export const bscPools = [
     status: 'active',
     platform: 'PancakeSwap',
     assets: ['BTCST', 'BNB'],
+    withdrawalFee: '0.1%',
     addLiquidityUrl:
       'https://pancakeswap.finance/add/BNB/0x78650b139471520656b9e7aa7a5e9276814a38e9',
     buyTokenUrl:
@@ -119,6 +122,7 @@ export const bscPools = [
     status: 'active',
     platform: 'PancakeSwap',
     assets: ['CAKE', 'BNB'],
+    withdrawalFee: '0.1%',
     addLiquidityUrl:
       'https://pancakeswap.finance/add/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82/BNB',
     buyTokenUrl:
@@ -144,6 +148,7 @@ export const bscPools = [
     status: 'active',
     platform: 'PancakeSwap',
     assets: ['LINK', 'BNB'],
+    withdrawalFee: '0.1%',
     addLiquidityUrl:
       'https://pancakeswap.finance/add/BNB/0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd',
     buyTokenUrl:
