@@ -68,6 +68,16 @@ const Footer = () => {
         </a>
 
         <a
+          href="https://app.xdao.app/#/dacprofile/0xD4Bc41277E392c76ae864223577FC3a73cc8a881"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
+          <span>daoBTC</span>
+        </a>
+
+        <a
           href="http://nakamoto.ctena.finance"
           target="_blank"
           rel="noopener noreferrer"
