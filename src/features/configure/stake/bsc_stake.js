@@ -33,14 +33,14 @@ export const bscStakePools = [
     fixedStatus: true,
     partners: [
       {
-        logo: 'stake/beefy/beefyfinance.png',
-        logoNight: 'stake/beefy/beefyfinance_night.png',
+        logo: 'stake/beefy/CTENA.png',
+        logoNight: 'stake/beefy/CTENA.png',
         background: 'stake/beefy/background.png',
-        text: "You probably already knew that Beefy is the most trusted Yield optimizer for the Binance Smart Chain. But did you know that Beefy has its own token? $BIFI has a maximum supply of 80000 tokens and there is no way to mint more. Everyone who holds our own $BIFI token can not only do cool stuff like create and vote on proposals, they also get a share of all harvests done, every hour, every day on all our +120 vaults. That's a lot of BNB that goes straight to our $BIFI holders. All you have to do is stake your $BIFI in this vault, it’s that simple, come back and harvest your BNB whenever you need it! (You can still vote on proposals even though you have staked your $BIFI here).",
-        website: 'https://app.beefy.finance',
+        text: 'is a token on Binance Smart Chain boasting a number of impressive features. It is the first token with a Black Hole design that exponentially cuts the total supply in circulation by massive amounts. CTENA combines this with an innovative Auto-Liquidity feature that increases liquidity of the token rapidly. And finally, CTENA has massive decentralization on a scale rarely seen in other tokens. Combine these three together and you get a power house token out of the hands of anyone, except the community as a whole. The Black Hole owned over 45% of supply at launch. The Black Hole counts as one of the wallet holders that 4% of transactions are distributed to. This results in exponential growth of the black hole and exponential burn of the token supply. At the time of this writing, the black hole has already grown to 46% percent ownership of the total supply.',
+        website: 'https://ctena.finance',
         social: {
-          telegram: 'http://t.me/beefyfinance',
-          twitter: 'https://twitter.com/beefyfinance',
+          telegram: 'http://t.me/catenaprotocol',
+          twitter: 'https://twitter.com/catenaprotocol',
         },
       },
     ],
