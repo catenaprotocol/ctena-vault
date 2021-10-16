@@ -36,7 +36,7 @@ const Header = ({ links, isNightMode, setNightMode }) => {
           <Button className={classes.title}>
             <Hidden xsDown>
               <img
-                alt="RIBBON"
+                alt="CTENA"
                 src={require(`images/BIFI-logo.svg`)}
                 height={'40px'}
                 className={classes.logo}
@@ -45,7 +45,7 @@ const Header = ({ links, isNightMode, setNightMode }) => {
             </Hidden>
             <Hidden smUp>
               <img
-                alt="RIBBON"
+                alt="CTENA"
                 src={require(`images/BIFI-logo.svg`)}
                 height={'35px'}
                 className={classes.logo}
@@ -59,16 +59,17 @@ const Header = ({ links, isNightMode, setNightMode }) => {
             {/* {renderLink('vote', 'vote', 'vote-yea', classes)} */}
             {/*             {renderLink('dashboard', t('stats'), 'chart-bar', classes)}
              */}{' '}
-            {renderLink('docs', 'docs', 'book', classes)}
+            {renderLink('buy', t('buy'), 'dollar-sign', classes)}
+            {renderLink('governance', 'gov', 'landmark', classes)}
             {renderLink('dashboard', 'dashboard', 'chart-bar', classes)}
             {renderLink('stats', 'stats', 'chart-bar', classes)}
-            {renderLink('governance', 'gov', 'landmark', classes)}
+            {renderLink('docs', 'docs', 'book', classes)}
             {/*  {renderLink('cdefi', 'cDEFI', 'hand-holding-usd', classes)}
             {renderLink('calt', 'cALT', 'hand-holding-usd', classes)}
             {renderLink('cstable', 'cSTABLE', 'hand-holding-usd', classes)}
             {renderLink('nakamoto', 'NAKAMOTO', 'hand-holding-usd', classes)} */}
-            {renderLink('buy', t('buy'), 'dollar-sign', classes)}
             {renderLink('proposal', 'proposal', 'vote-yea', classes)}
+            {renderLink('cryptobot', 'nfts', 'book', classes)}
           </Hidden>
           <Link className={classes.btnBoost} to={`/${chain}/stake`}>
             Stake
