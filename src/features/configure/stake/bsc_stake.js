@@ -17,7 +17,7 @@ export const bscStakePools = [
     name: 'CTDAO',
     logo: 'single-assets/CTENA.png',
     token: 'CTDAO',
-    tokenDecimals: 18,
+    tokenDecimals: 0,
     tokenAddress: '0xD4Bc41277E392c76ae864223577FC3a73cc8a881',
     tokenOracle: 'tokens',
     tokenOracleId: 'CTENA',
