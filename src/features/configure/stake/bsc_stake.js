@@ -13,6 +13,39 @@ const moonpot = {
 
 export const bscStakePools = [
   {
+    id: 'ctdao',
+    name: 'CTDAO',
+    logo: 'single-assets/CTENA.png',
+    token: 'CTDAO',
+    tokenDecimals: 18,
+    tokenAddress: '0xD4Bc41277E392c76ae864223577FC3a73cc8a881',
+    tokenOracle: 'tokens',
+    tokenOracleId: 'CTENA',
+    earnedToken: 'CTENA',
+    earnedTokenDecimals: 9,
+    earnedTokenAddress: '0xB83969c3205efb219e4a264E7aE6802cC43D9BF5',
+    earnContractAddress: '0xB83969c3205efb219e4a264E7aE6802cC43D9BF5',
+    earnContractAbi: govPoolABI,
+    earnedOracle: 'tokens',
+    earnedOracleId: 'CTENA',
+    partnership: false,
+    status: 'active',
+    fixedStatus: true,
+    partners: [
+      {
+        logo: 'stake/beefy/CTENA.png',
+        logoNight: 'stake/beefy/CTENA.png',
+        background: 'stake/beefy/background.png',
+        text: 'is a token on Binance Smart Chain boasting a number of impressive features. It is the first token with a Black Hole design that exponentially cuts the total supply in circulation by massive amounts. CTENA combines this with an innovative Auto-Liquidity feature that increases liquidity of the token rapidly. And finally, CTENA has massive decentralization on a scale rarely seen in other tokens. Combine these three together and you get a power house token out of the hands of anyone, except the community as a whole. The Black Hole owned over 45% of supply at launch. The Black Hole counts as one of the wallet holders that 4% of transactions are distributed to. This results in exponential growth of the black hole and exponential burn of the token supply. At the time of this writing, the black hole has already grown to 46% percent ownership of the total supply.',
+        website: 'https://ctena.finance',
+        social: {
+          telegram: 'http://t.me/catenaprotocol',
+          twitter: 'https://twitter.com/catenaprotocol',
+        },
+      },
+    ],
+  },
+  {
     id: 'cdefi',
     name: 'CDEFI',
     logo: 'single-assets/CTENA.png',
