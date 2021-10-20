@@ -136,6 +136,16 @@ const Footer = () => {
           <i className={`fas fa-hand-holding-usd ${classes.linkIcon}`}></i>
           <span>vault</span>
         </a>
+
+        <a
+          href="https://workers.ctena.finance"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          <i className={`fas fa-hand-holding-usd ${classes.linkIcon}`}></i>
+          <span>workers</span>
+        </a>
       </div>
 
       <div className={classes.column}>
