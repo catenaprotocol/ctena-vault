@@ -157,15 +157,15 @@ const getLinkUrl = name => {
   } else if (name === 'docs') {
     return 'https://catena-protocol.gitbook.io/catena-protocol/';
   } else if (name === 'stats') {
-    return 'http://161.97.157.244:3001';
+    return 'https://stats.ctena.finance';
   } else if (name === 'cdefi') {
-    return 'http://cdefi.ctena.finance';
+    return 'https://cdefi.ctena.finance';
   } else if (name === 'calt') {
-    return 'http://calt.ctena.finance';
+    return 'https://calt.ctena.finance';
   } else if (name === 'nakamoto') {
-    return 'http://nakamoto.ctena.finance';
+    return 'https://nakamoto.ctena.finance';
   } else if (name === 'cstable') {
-    return 'http://cstable.ctena.finance';
+    return 'https://cstable.ctena.finance';
   } else if (name === 'proposal') {
     return 'https://ctenaprotocol.kampsite.co/';
   } else {
