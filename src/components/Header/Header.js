@@ -56,11 +56,12 @@ const Header = ({ links, isNightMode, setNightMode }) => {
 
         <div className={classes.middleNav}>
           <Hidden smDown>
-            {/* {renderLink('vote', 'vote', 'vote-yea', classes)} */}
-            {/*             {renderLink('dashboard', t('stats'), 'chart-bar', classes)}
-             */}{' '}
+            {/* {renderLink('vote', 'vote', 'vote-yea', classes)} 
+            {   {renderLink('dashboard', t('stats'), 'chart-bar', classes)}
+  */}
             {renderLink('buy', t('buy'), 'dollar-sign', classes)}
             {renderLink('governance', 'gov', 'landmark', classes)}
+            {renderLink('workers', 'workers', 'hand-holding-usd', classes)}
             {renderLink('dashboard', 'dashboard', 'chart-bar', classes)}
             {renderLink('stats', 'stats', 'chart-bar', classes)}
             {renderLink('docs', 'docs', 'book', classes)}
@@ -113,6 +114,7 @@ const Header = ({ links, isNightMode, setNightMode }) => {
           <div className={classes.appResponsive}>{links}</div>
           <div style={{ textAlign: 'center' }}>
             <LinkSidebar name="governance" label="gov" icon="vote-yea" classes={classes} />
+            <LinkSidebar name="workers" label="workers" icon="vote-yea" classes={classes} />
             <LinkSidebar
               name="dashboard"
               label={t('dashboard')}
