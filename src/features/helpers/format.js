@@ -73,11 +73,11 @@ export const stripTrailingZeros = str => {
   return str.replace(/(\.[0-9]*?)(0+$)/, '$1').replace(/\.$/, '');
 };
 
-export const formatDecimals = (number, maxPlaces = 8) => {
+export const formatDecimals = (number, maxPlaces = 9) => {
   if (number.isZero()) {
     return '0';
   }
 
-  const places = Math.min(maxPlaces, number >= 10 ? 4 : 8);
+  const places = Math.min(maxPlaces, number >= 10 ? 4 : 9);
   return stripTrailingZeros(number.toFixed(places));
 };
