@@ -161,7 +161,7 @@ const ApyStats = ({ apy, launchpoolApr, isLoading = false, itemClasses, itemInne
     Object.entries(values).map(([key, value]) => {
       const formattedValue = key.toLowerCase().includes('daily')
         ? formatApy(value, 4)
-        : formatApy(value);
+        : formatApy(value, 4);
       return [key, formattedValue];
     })
   );
