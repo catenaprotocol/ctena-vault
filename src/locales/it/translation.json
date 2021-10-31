@@ -23,7 +23,7 @@
   "Vault-ApproveButton": "Approva",
   "Vault-ApprovalSuccess": "Approvazione riuscita",
   "Vault-ApprovalError": "Errore durante l'approvazione: {{error}}",
-  "Vault-BifiBuyback": "Riacquistati {{amount}} BIFI/giorno",
+  "Vault-BifiBuyback": "Riacquistati {{amount}} CTENA/giorno",
   "Vault-DepositButton": "Deposita",
   "Vault-DepositButtonAll": "Deposita tutto",
   "Vault-DepositTokensNote": "Riceverai dei token {{mooToken}} come ricevuta dei tuoi token {{assetToken}} depositati. La ricevuta è necessaria per prelevare i tuoi token {{assetToken}}, non scambiare o trasferire i tuoi {{mooToken}} a sconosciuti!",

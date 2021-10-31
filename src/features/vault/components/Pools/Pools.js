@@ -90,12 +90,12 @@ export default function Pools() {
               <TVLLoader className={classes.titleLoader} />
             )}
           </span>
-{/* 
+
           {fetchBifibuybackDone && chainBifibuyback && (
             <span className={classes.text}>
               {t('Vault-BifiBuyback', { amount: formatGlobalTvl(chainBifibuyback) })}
             </span>
-          )} */}
+          )}
 
           <span className={classes.text}>
             {t('Vault-Deposited')}{' '}
