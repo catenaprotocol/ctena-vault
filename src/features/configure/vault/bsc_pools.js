@@ -250,7 +250,7 @@ export const bscPools = [
     buyTokenUrl:
       'https://pancakeswap.finance/swap?outputCurrency=0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
   }, */
-  {
+  /* {
     id: 'ctena-maxi',
     logo: 'single-assets/CTENA.png',
     name: 'CTENA Maxi',
@@ -282,5 +282,5 @@ export const bscPools = [
     withdrawalFee: '0.05%',
     buyTokenUrl:
       'https://pancakeswap.finance/swap?outputCurrency=0x8f4fc37bff97e6e7fd4355a5df76a486ac1e2e1c',
-  },
+  }, */
 ];
