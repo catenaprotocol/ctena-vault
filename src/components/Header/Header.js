@@ -169,7 +169,7 @@ const getLinkUrl = name => {
   } else if (name === 'cstable') {
     return 'https://cstable.ctena.finance';
   } else if (name === 'proposal') {
-    return 'https://catenaprotocol.kampsite.co/';
+    return 'https://ctenaprotocol.kampsite.co/';
   } else {
     return `https://${name}.ctena.finance`;
   }
