@@ -25,7 +25,7 @@ const Footer = () => {
         </a>
 
         <a
-          href="https://catenaprotocol.kampsite.co/"
+          href="https://ctenaprotocol.kampsite.co/"
           target="_blank"
           rel="noopener noreferrer"
           className={classes.link}
