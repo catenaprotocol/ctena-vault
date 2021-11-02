@@ -1,7 +1,7 @@
 import { getNetworkMulticall, launchpools } from '../../helpers/getNetworkData';
 import { useDispatch, useSelector } from 'react-redux';
 import { useCallback, useEffect, useMemo } from 'react';
-import { MooToken } from '../../configure/abi';
+import { ctenaAbi, MooToken } from '../../configure/abi';
 import { MultiCall } from 'eth-multicall';
 import Web3 from 'web3';
 import { getRpcUrl } from '../../../common/networkSetup';
@@ -27,10 +27,17 @@ const subscriptionCalls = {
   poolApr: ['poolRewardRate', 'poolStaked', 'tokenPricePerShare'],
   poolStaked: ['poolStaked'],
   poolFinish: ['poolFinish'],
+  poolBalance: ['poolBalance'],
 };
 
 // list of contract calls that do not require the users wallet address
-const callsDoNotNeedAddress = ['poolRewardRate', 'poolStaked', 'poolFinish', 'tokenPricePerShare'];
+const callsDoNotNeedAddress = [
+  'poolRewardRate',
+  'poolStaked',
+  'poolFinish',
+  'tokenPricePerShare',
+  'poolBalance',
+];
 
 // list of subscriptions that do not require the users wallet address
 const subscriptionsDoNotNeedAddress = Object.fromEntries(
@@ -49,12 +56,14 @@ const callGroups = {
   poolRewardRate: 'earnContractAddress',
   poolStaked: 'earnContractAddress',
   poolFinish: 'earnContractAddress',
+  poolBalance: 'earnTokenAddress',
   tokenPricePerShare: 'tokenAddress',
 };
 
 // contract name -> instance of the contract
 const callGroupContracts = {
   tokenAddress: (web3, pool) => new web3.eth.Contract(MooToken, pool.tokenAddress),
+  earnTokenAddress: (web3, pool) => new web3.eth.Contract(MooToken, pool.earnedTokenAddress),
   earnContractAddress: (web3, pool) =>
     new web3.eth.Contract(pool.earnContractAbi, pool.earnContractAddress),
 };
@@ -69,6 +78,8 @@ const callFunctions = {
   poolRewardRate: (earnContract, pool, address) => earnContract.methods.rewardRate(),
   poolStaked: (earnContract, pool, address) => earnContract.methods.totalSupply(),
   poolFinish: (earnContract, pool, address) => earnContract.methods.periodFinish(),
+  poolBalance: (tokenContract, pool, address) =>
+    tokenContract.methods.balanceOf(pool.earnContractAddress),
   tokenPricePerShare: (tokenContract, pool, address) =>
     tokenContract.methods.getPricePerFullShare(),
 };
@@ -148,6 +159,21 @@ const subscriptionCallbacks = {
       payload: {
         id: pool.id,
         poolStaked: data.poolStaked,
+      },
+    });
+  },
+  poolBalance: async (dispatch, pool, data) => {
+    if (data.poolBalance === undefined) {
+      console.warn('Missing data for launchpools poolBalance.');
+      return;
+    }
+
+    // Save to state
+    dispatch({
+      type: ACTION_PREFIX + 'poolBalance',
+      payload: {
+        id: pool.id,
+        poolBalance: data.poolBalance,
       },
     });
   },
@@ -363,6 +389,19 @@ const subscriptionReducers = {
         poolStaked: {
           ...state.poolStaked,
           [payload.id]: payload.poolStaked,
+        },
+      };
+    }
+
+    return state;
+  },
+  poolBalance: (state, payload) => {
+    if (state.poolBalance[payload.id] !== payload.poolBalance) {
+      return {
+        ...state,
+        poolBalance: {
+          ...state.poolBalance,
+          [payload.id]: payload.poolBalance,
         },
       };
     }
@@ -646,6 +685,14 @@ export function usePoolStaked(id) {
 
   return useMemo(() => {
     return raw ? byDecimals(raw, launchpools[id].tokenDecimals) : ZERO;
+  }, [raw, id]);
+}
+
+export function usePoolBalance(id) {
+  const raw = useSelector(state => (id && id in launchpools ? state.stake.poolBalance[id] : null));
+
+  return useMemo(() => {
+    return raw ? byDecimals(raw, launchpools[id].earnedTokenDecimals) : ZERO;
   }, [raw, id]);
 }
 

@@ -14,6 +14,7 @@ import {
   usePoolApr,
   usePoolFinish,
   usePoolStaked,
+  usePoolBalance,
   usePoolStatus,
   useUserApproval,
   useUserBalance,
@@ -86,6 +87,7 @@ export default function StakePool(props) {
       poolStaked: true,
       poolApr: true,
       poolFinish: true,
+      poolBalance: true,
     });
   }, [subscribe, launchpool]);
   useLaunchpoolUpdates();
@@ -95,6 +97,7 @@ export default function StakePool(props) {
   const poolFinish = usePoolFinish(launchpool.id);
   const poolStatus = usePoolStatus(launchpool.id);
   const poolStaked = usePoolStaked(launchpool.id);
+  const poolBalance = usePoolBalance(launchpool.id);
   const poolApr = usePoolApr(launchpool.id);
   const userApproval = useUserApproval(launchpool.id);
   const userBalance = useUserBalance(launchpool.id);
@@ -314,6 +317,10 @@ export default function StakePool(props) {
           <Typography className={classes.title}>{formatDecimals(poolStaked)}</Typography>
           <Typography className={classes.subtitle}>
             {t('Stake-Total-Value-Locked', { mooToken: launchpool.token })}
+          </Typography>
+          <Typography className={classes.title}>{formatDecimals(poolBalance)}</Typography>
+          <Typography className={classes.subtitle}>
+            {t('Pool Balance', { mooToken: launchpool.token })}
           </Typography>
         </Grid>
         <Grid item xs={12} sm={4}>

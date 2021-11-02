@@ -34,6 +34,7 @@ export const initialPoolState = {
     Object.values(launchpools).map(pool => [pool.id, pool.periodFinish])
   ),
   poolStaked: Object.fromEntries(Object.values(launchpools).map(pool => [pool.id, '0'])),
+  poolBalance: Object.fromEntries(Object.values(launchpools).map(pool => [pool.id, '0'])),
   poolApr: Object.fromEntries(Object.values(launchpools).map(pool => [pool.id, 0])),
 };
 

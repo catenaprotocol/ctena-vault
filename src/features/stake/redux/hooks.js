@@ -14,4 +14,5 @@ export {
   useUserBalance,
   useUserStaked,
   useUserRewardsAvailable,
+  usePoolBalance,
 } from './subscription';
