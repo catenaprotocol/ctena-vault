@@ -63,58 +63,8 @@ const Footer = () => {
           rel="noopener noreferrer"
           className={classes.link}
         >
-          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
+          <i className={`fas fa-hand-holding-usd ${classes.linkIcon}`}></i>
           <span>gov</span>
-        </a>
-
-        <a
-          href="https://app.xdao.app/#/dacprofile/0xD4Bc41277E392c76ae864223577FC3a73cc8a881"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={classes.link}
-        >
-          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
-          <span>daoBTC</span>
-        </a>
-
-        <a
-          href="http://nakamoto.ctena.finance"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={classes.link}
-        >
-          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
-          <span>nakamoto index</span>
-        </a>
-
-        <a
-          href="http://cdefi.ctena.finance"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={classes.link}
-        >
-          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
-          <span>cDEFI index</span>
-        </a>
-
-        <a
-          href="http://calt.ctena.finance"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={classes.link}
-        >
-          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
-          <span>cALT index</span>
-        </a>
-
-        <a
-          href="http://cstable.ctena.finance"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={classes.link}
-        >
-          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
-          <span>cSTABLE index</span>
         </a>
 
         {/*  <a
@@ -145,6 +95,109 @@ const Footer = () => {
         >
           <i className={`fas fa-hand-holding-usd ${classes.linkIcon}`}></i>
           <span>workers</span>
+        </a>
+        <a
+          href="https://mint.xcbase.ctena.finance"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          <i className={`fas fa-hand-holding-usd ${classes.linkIcon}`}></i>
+          <span>mint</span>
+        </a>
+        <a
+          href="https://cryptoboy.ctena.finance"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          <i className={`fas fa-hand-holding-usd ${classes.linkIcon}`}></i>
+          <span>nft</span>
+        </a>
+      </div>
+
+      <div className={classes.column}>
+        <div className={classes.title}>{t('indexs')}</div>
+
+        <a
+          href="http://nakamoto.ctena.finance"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
+          <span>nakamoto </span>
+        </a>
+
+        <a
+          href="http://cdefi.ctena.finance"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
+          <span>cDEFI </span>
+        </a>
+
+        <a
+          href="http://calt.ctena.finance"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
+          <span>cALT </span>
+        </a>
+
+        <a
+          href="http://cstable.ctena.finance"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
+          <span>cSTABLE </span>
+        </a>
+
+        <a
+          href="https://app.xdao.app/#/dacprofile/0xD4Bc41277E392c76ae864223577FC3a73cc8a881"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
+          <span>cTDAO</span>
+        </a>
+      </div>
+
+      <div className={classes.column}>
+        <div className={classes.title}>{t('tokens')}</div>
+        <a
+          href="http://dashboard.ctena.finance"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
+          <span>ctena </span>
+        </a>
+        <a
+          href="http://cbase.ctena.finance"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
+          <span>cBASE </span>
+        </a>
+        <a
+          href="http://icscbase.ctena.finance"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
+          <span>xcBASE </span>
         </a>
       </div>
 

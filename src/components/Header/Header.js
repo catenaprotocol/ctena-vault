@@ -60,7 +60,7 @@ const Header = ({ links, isNightMode, setNightMode }) => {
             {   {renderLink('dashboard', t('stats'), 'chart-bar', classes)}
   */}
             {renderLink('buy', t('buy'), 'dollar-sign', classes)}
-            {renderLink('governance', 'gov', 'landmark', classes)}
+            {/* {renderLink('governance', 'gov', 'landmark', classes)} */}
             {renderLink('workers', 'workers', 'hand-holding-usd', classes)}
             {renderLink('dashboard', 'dashboard', 'chart-bar', classes)}
             {renderLink('stats', 'stats', 'chart-bar', classes)}
@@ -69,7 +69,7 @@ const Header = ({ links, isNightMode, setNightMode }) => {
             {renderLink('calt', 'cALT', 'hand-holding-usd', classes)}
             {renderLink('cstable', 'cSTABLE', 'hand-holding-usd', classes)}
             {renderLink('nakamoto', 'NAKAMOTO', 'hand-holding-usd', classes)} */}
-            {renderLink('proposal', 'proposal', 'vote-yea', classes)}
+            {/* {renderLink('proposal', 'proposal', 'vote-yea', classes)} */}
             {renderLink('cryptoboy', 'nfts', 'book', classes)}
           </Hidden>
           <Link className={classes.btnBoost} to={`/${chain}/stake`}>
@@ -113,7 +113,7 @@ const Header = ({ links, isNightMode, setNightMode }) => {
           </IconButton>
           <div className={classes.appResponsive}>{links}</div>
           <div style={{ textAlign: 'center' }}>
-            <LinkSidebar name="governance" label="gov" icon="vote-yea" classes={classes} />
+            {/* <LinkSidebar name="governance" label="gov" icon="vote-yea" classes={classes} /> */}
             <LinkSidebar name="workers" label="workers" icon="vote-yea" classes={classes} />
             <LinkSidebar
               name="dashboard"
