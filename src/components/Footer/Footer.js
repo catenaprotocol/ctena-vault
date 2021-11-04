@@ -136,7 +136,7 @@ const Footer = () => {
           className={classes.link}
         >
           <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
-          <span>cDEFI </span>
+          <span>cdefi </span>
         </a>
 
         <a
@@ -146,7 +146,7 @@ const Footer = () => {
           className={classes.link}
         >
           <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
-          <span>cALT </span>
+          <span>callt </span>
         </a>
 
         <a
@@ -156,7 +156,7 @@ const Footer = () => {
           className={classes.link}
         >
           <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
-          <span>cSTABLE </span>
+          <span>cstable </span>
         </a>
 
         <a
@@ -166,7 +166,7 @@ const Footer = () => {
           className={classes.link}
         >
           <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
-          <span>cTDAO</span>
+          <span>ctdao</span>
         </a>
       </div>
 
@@ -188,7 +188,7 @@ const Footer = () => {
           className={classes.link}
         >
           <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
-          <span>cBASE </span>
+          <span>cbase </span>
         </a>
         <a
           href="http://icscbase.ctena.finance"
@@ -197,7 +197,7 @@ const Footer = () => {
           className={classes.link}
         >
           <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
-          <span>xcBASE </span>
+          <span>xcbase </span>
         </a>
       </div>
 
