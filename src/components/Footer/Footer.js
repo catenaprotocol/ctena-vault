@@ -25,6 +25,26 @@ const Footer = () => {
         </a>
 
         <a
+          href="http://dashboard.ctena.finance"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
+          <span>dashboard </span>
+        </a>
+
+        <a
+          href="http://stats.ctena.finance"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
+          <span>stats </span>
+        </a>
+
+        <a
           href="https://ctenaprotocol.kampsite.co/"
           target="_blank"
           rel="noopener noreferrer"
@@ -160,28 +180,6 @@ const Footer = () => {
         </a>
 
         <a
-          href="https://app.xdao.app/#/dacprofile/0xD4Bc41277E392c76ae864223577FC3a73cc8a881"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={classes.link}
-        >
-          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
-          <span>ctdao</span>
-        </a>
-      </div>
-
-      <div className={classes.column}>
-        <div className={classes.title}>{t('tokens')}</div>
-        <a
-          href="http://dashboard.ctena.finance"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={classes.link}
-        >
-          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
-          <span>ctena </span>
-        </a>
-        <a
           href="http://cbase.ctena.finance"
           target="_blank"
           rel="noopener noreferrer"
@@ -198,6 +196,16 @@ const Footer = () => {
         >
           <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
           <span>xcbase </span>
+        </a>
+
+        <a
+          href="https://app.xdao.app/#/dacprofile/0xD4Bc41277E392c76ae864223577FC3a73cc8a881"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
+          <span>ctdao</span>
         </a>
       </div>
 
