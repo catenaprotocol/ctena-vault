@@ -113,7 +113,7 @@ export const bscStakePools = [
   },
   {
     id: 'catena',
-    name: 'CATENA',
+    name: 'CATENA DAO',
     logo: 'single-assets/CTENA.png',
     token: 'CATENA',
     tokenDecimals: 0,
