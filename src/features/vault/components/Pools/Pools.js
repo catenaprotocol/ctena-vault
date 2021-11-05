@@ -11,7 +11,7 @@ import { useFetchBalances, useFetchVaultsData, useFetchApys } from '../../redux/
 import VisiblePools from '../VisiblePools/VisiblePools';
 import styles from './styles';
 import { usePoolsTvl, useUserTvl } from '../../hooks/usePoolsTvl';
-import { formatGlobalTvl } from 'features/helpers/format';
+import { formatGlobalTvl, formatGlobalTvl9 } from 'features/helpers/format';
 import { useFetchBifibuyback } from 'features/vault/redux/fetchBifiBuyback';
 import { getNetworkFriendlyName } from '../../../helpers/getNetworkData';
 
@@ -93,7 +93,7 @@ export default function Pools() {
 
           {fetchBifibuybackDone && chainBifibuyback && (
             <span className={classes.text}>
-              {t('Vault-BifiBuyback', { amount: formatGlobalTvl(chainBifibuyback) })}
+              {t('Vault-BifiBuyback', { amount: formatGlobalTvl9(chainBifibuyback) })}
             </span>
           )}
 
