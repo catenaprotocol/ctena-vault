@@ -30,7 +30,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           className={classes.link}
         >
-          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
+          <i className={`fas fa-chart-bar ${classes.linkIcon}`}></i>
           <span>dashboard </span>
         </a>
 
@@ -40,7 +40,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           className={classes.link}
         >
-          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
+          <i className={`fas fa-chart-bar ${classes.linkIcon}`}></i>
           <span>stats </span>
         </a>
 
