@@ -115,7 +115,7 @@ export const bscStakePools = [
     id: 'catena',
     name: 'CATENA DAO',
     logo: 'single-assets/CTENA.png',
-    token: 'CATENA',
+    token: 'CATENA DAO',
     tokenDecimals: 0,
     tokenAddress: '0x06f55Cd64236fEd7c5fe207dA0a0f01b8Ad59C20',
     tokenOracle: 'tokens',
