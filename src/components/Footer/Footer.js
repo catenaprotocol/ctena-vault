@@ -77,6 +77,7 @@ const Footer = () => {
 
       <div className={classes.column}>
         <div className={classes.title}>{t('products')}</div>
+
         <a
           href="https://governance.ctena.finance"
           target="_blank"
@@ -138,6 +139,15 @@ const Footer = () => {
 
       <div className={classes.column}>
         <div className={classes.title}>{t('indexs')}</div>
+        <a
+          href="https://app.xdao.app/#/dafprofile/0x06f55Cd64236fEd7c5fe207dA0a0f01b8Ad59C20"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
+          <span>DAO</span>
+        </a>
 
         <a
           href="http://nakamoto.ctena.finance"
@@ -196,16 +206,6 @@ const Footer = () => {
         >
           <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
           <span>xcbase </span>
-        </a>
-
-        <a
-          href="https://app.xdao.app/#/dacprofile/0xD4Bc41277E392c76ae864223577FC3a73cc8a881"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={classes.link}
-        >
-          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
-          <span>ctdao</span>
         </a>
       </div>
 
