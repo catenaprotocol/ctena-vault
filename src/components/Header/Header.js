@@ -62,7 +62,7 @@ const Header = ({ links, isNightMode, setNightMode }) => {
             {renderLink('buy', t('buy'), 'dollar-sign', classes)}
             {/* {renderLink('governance', 'gov', 'landmark', classes)} */}
             {renderLink('workers', 'workers', 'hand-holding-usd', classes)}
-            {renderLink('dashboard', 'dashboard', 'chart-bar', classes)}
+            {/* {renderLink('dashboard', 'dashboard', 'chart-bar', classes)} */}
             {renderLink('stats', 'stats', 'chart-bar', classes)}
             {renderLink('docs', 'docs', 'book', classes)}
             {/*  {renderLink('cdefi', 'cDEFI', 'hand-holding-usd', classes)}
