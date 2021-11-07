@@ -127,13 +127,22 @@ const Footer = () => {
           <span>mint</span>
         </a>
         <a
+          href="https://nft.ctena.finance"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          <i className={`fas fa-hand-holding-usd ${classes.linkIcon}`}></i>
+          <span>nfts</span>
+        </a>
+        <a
           href="https://cryptoboy.ctena.finance"
           target="_blank"
           rel="noopener noreferrer"
           className={classes.link}
         >
           <i className={`fas fa-hand-holding-usd ${classes.linkIcon}`}></i>
-          <span>nft</span>
+          <span>cryptoboy</span>
         </a>
       </div>
 

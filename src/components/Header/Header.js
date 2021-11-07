@@ -70,7 +70,8 @@ const Header = ({ links, isNightMode, setNightMode }) => {
             {renderLink('cstable', 'cSTABLE', 'hand-holding-usd', classes)}
             {renderLink('nakamoto', 'NAKAMOTO', 'hand-holding-usd', classes)} */}
             {/* {renderLink('proposal', 'proposal', 'vote-yea', classes)} */}
-            {renderLink('cryptoboy', 'nfts', 'book', classes)}
+            {/*  {renderLink('cryptoboy', 'cryptoboy', 'book', classes)} */}
+            {/*  {renderLink('cryptoboy', 'nfts', 'book', classes)} */}
           </Hidden>
           <Link className={classes.btnBoost} to={`/${chain}/stake`}>
             Stake
