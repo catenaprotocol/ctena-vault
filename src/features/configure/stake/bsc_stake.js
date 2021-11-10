@@ -13,6 +13,24 @@ const moonpot = {
 
 export const bscStakePools = [
   {
+    id: 'ctenactena',
+    name: 'CTENA',
+    logo: 'single-assets/CTENA.png',
+    token: 'CTENA',
+    tokenDecimals: 9,
+    tokenAddress: '0x8f4fc37bff97e6e7fd4355a5df76a486ac1e2e1c',
+    tokenOracle: 'tokens',
+    tokenOracleId: 'CTENA',
+    earnedToken: 'CTENA',
+    earnedTokenDecimals: 9,
+    earnedTokenAddress: '0x8f4fc37bff97e6e7fd4355a5df76a486ac1e2e1c',
+    earnContractAddress: '0x147dD1F8AB6629A76Bdb061E3595Fc744a77277A',
+    earnContractAbi: govPoolABI,
+    earnedOracle: 'tokens',
+    earnedOracleId: 'CTENA',
+
+  },
+  {
     id: 'cake-bnb',  
     name: 'CAKE-BNB',
     logo: 'bnb-pairs/CAKE-BNB.svg',
