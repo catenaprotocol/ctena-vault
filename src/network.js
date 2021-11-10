@@ -6,7 +6,7 @@ export const allNetworks = [
     id: 56,
     hash: '/bsc',
   },
-  {
+  /*   {
     name: 'HECO',
     asset: 'HECO',
     id: 128,
@@ -41,7 +41,7 @@ export const allNetworks = [
     asset: 'ARBITRUM',
     id: 42161,
     hash: '/arbitrum',
-  },
+  }, */
 ];
 
 const network = allNetworks.find(n => window.location.hash.startsWith('#' + n.hash));
