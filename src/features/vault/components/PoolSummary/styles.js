@@ -3,6 +3,7 @@ const styles = theme => ({
     display: 'flex',
     alignItems: 'center',
     background: theme.palette.background.primary,
+    borderRadius:'10px',
   },
   detailsPaused: {
     display: 'flex',
@@ -21,6 +22,7 @@ const styles = theme => ({
     },
   },
   item: {
+    
     marginBottom: '20px',
     display: 'flex',
     flexDirection: 'column',
