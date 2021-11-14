@@ -78,6 +78,11 @@ const Header = ({ links, isNightMode, setNightMode }) => {
             {/*             <img alt="Boost" src={require('images/stake/boost.svg')} />
              */}{' '}
           </Link>
+          <Link className={classes.btnBoost} to={`/${chain}/zap`}>
+            Zap
+            {/*             <img alt="Boost" src={require('images/stake/boost.svg')} />
+             */}{' '}
+          </Link>
         </div>
 
         <Hidden smDown implementation="css">
