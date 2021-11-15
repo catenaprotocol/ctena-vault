@@ -53,6 +53,8 @@ import { getSingleAssetSrc } from '../../helpers/getSingleAssetSrc';
 const useStyles = makeStyles(styles);
 
 export default function StakePool(props) {
+  console.log("veidmoa le props ",props)
+  // background image to description style={customBgImg(partner.background)}
   const { chain } = useParams();
 
   const classes = useStyles();
@@ -423,14 +425,15 @@ export default function StakePool(props) {
           </Grid>
         </Grid>
       </NetworkRequired>
-
+           
       {launchpool.partners.map(partner => (
         <Grid
-          container
-          key={partner.website}
-          className={classes.row}
-          style={customBgImg(partner.background)}
+        container
+        key={partner.website}
+        className={classes.row}
+       
         >
+         
           <Grid item xs={12} className={classes.partnerHeader}>
             <a target="_blank" href={partner.website}>
               {isNightMode && partner.logoNight ? (
