@@ -149,7 +149,7 @@ const Footer = () => {
       <div className={classes.column}>
         <div className={classes.title}>{t('indexs')}</div>
         <a
-          href="https://app.xdao.app/#/dafprofile/0x06f55Cd64236fEd7c5fe207dA0a0f01b8Ad59C20"
+          href="https://www.xdao.app/56/dao/0xa7295305596a3E4953271585A8cB44DFfD069c24"
           target="_blank"
           rel="noopener noreferrer"
           className={classes.link}

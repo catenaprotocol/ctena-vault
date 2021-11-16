@@ -276,7 +276,7 @@ export const bscStakePools = [
       },
     ],
   },
-  {
+  /* {
     id: 'catena',
     name: 'CATENA DAO',
     logo: 'single-assets/CTENA.png',
@@ -308,5 +308,5 @@ export const bscStakePools = [
         },
       },
     ],
-  },
+  }, */
 ];
