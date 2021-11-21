@@ -44,7 +44,7 @@ export function useFetchHarvest() {
   }));
 
   const boundAction = useCallback(data => dispatch(fetchHarvest(data)), [dispatch]);
-
+  
   return {
     fetchHarvest: boundAction,
     fetchHarvestPending,

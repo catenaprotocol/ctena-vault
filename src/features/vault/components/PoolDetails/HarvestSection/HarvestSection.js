@@ -45,13 +45,13 @@ const HarvestSection = ({ pool, index }) => {
             {t('Vault-HarvestConfirm')}
           </Typography>
         </DialogTitle>
-        <DialogContent>
+        {/* <DialogContent>
           <DialogContentText>
             <Typography className={classes.subtitle} variant="body2">
               {t('Vault-HarvestDescription')}
             </Typography>
           </DialogContentText>
-        </DialogContent>
+        </DialogContent> */}
         <DialogActions>
           <Button
             className={`${classes.showDetailButton} ${classes.showDetailButtonOutlined} `}
@@ -70,14 +70,15 @@ const HarvestSection = ({ pool, index }) => {
       </Dialog>
       <Grid item xs={12} md={2} className={classes.sliderDetailContainer}>
         <div className={classes.showDetailBottom}>
-          <div className={classes.showDetailLeft}>{/* {t('Vault-LastHarvest')}: */}</div>
+          <div className={classes.showDetailLeft}> {/*  {t('Vault-LastHarvest')}: */}  </div>
           <div style={{ textAlign: 'center' }}>
             <Button
               className={`${classes.showDetailButton} ${classes.showDetailButtonOutlined} ${classes.showResponsiveButtonCon}`}
-              style={{ marginBottom: pool.platform === 'Autofarm' ? '48px' : '12px' }}
+              style={{ marginBottom: pool.platform === 'PancakeSwap' ? '48px' : '12px' }}
               type="button"
               color="primary"
               onClick={() => setShowHarvestModal(true)}
+
             >
               {fetchHarvestPending[index]
                 ? `${t('Vault-Harvesting')}`

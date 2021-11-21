@@ -117,7 +117,7 @@ const Footer = () => {
           <i className={`fas fa-hand-holding-usd ${classes.linkIcon}`}></i>
           <span>workers</span>
         </a>
-        <a
+       {/*  <a
           href="https://mint.xcbase.ctena.finance"
           target="_blank"
           rel="noopener noreferrer"
@@ -125,15 +125,25 @@ const Footer = () => {
         >
           <i className={`fas fa-hand-holding-usd ${classes.linkIcon}`}></i>
           <span>mint</span>
-        </a>
+        </a> */}
+         
         <a
-          href="https://nft.ctena.finance"
+          href="https://featured.market/profile/ctenaprotocol"
           target="_blank"
           rel="noopener noreferrer"
           className={classes.link}
         >
           <i className={`fas fa-hand-holding-usd ${classes.linkIcon}`}></i>
-          <span>nfts</span>
+          <span>marketplace</span>
+        </a>
+        <a
+          href="https://featured.market/profile/ctenaprotocol"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          <i className={`fas fa-hand-holding-usd ${classes.linkIcon}`}></i>
+          <span>featured</span>
         </a>
         <a
           href="https://cryptoboy.ctena.finance"
@@ -199,6 +209,16 @@ const Footer = () => {
         </a>
 
         <a
+          href="http://wctena.ctena.finance"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
+          <span>wctena </span>
+        </a>
+{/* 
+        <a
           href="http://cbase.ctena.finance"
           target="_blank"
           rel="noopener noreferrer"
@@ -215,7 +235,7 @@ const Footer = () => {
         >
           <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
           <span>xcbase </span>
-        </a>
+        </a> */}
       </div>
 
       <div className={classes.column}>
