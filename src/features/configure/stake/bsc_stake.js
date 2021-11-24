@@ -82,7 +82,7 @@ export const bscStakePools = [
     id: 'cake-bnb',
     name: 'CAKE-BNB',
     logo: 'bnb-pairs/CAKE-BNB.svg',
-    token: 'CAKE-BNB LP',
+    token: 'ribbonCakeV2CAKE-BNB',
     tokenDecimals: 18,
     tokenAddress: '0x36c8EA66B889353A4c062AdfA0Cc941626E1Bf08',
     tokenOracle: 'tokens',
@@ -95,6 +95,7 @@ export const bscStakePools = [
     earnedOracle: 'tokens',
     earnedOracleId: 'CTENA',
     partnership: false,
+    isMooStaked: true,
     status: 'active',
     fixedStatus: true,
     partners: [
