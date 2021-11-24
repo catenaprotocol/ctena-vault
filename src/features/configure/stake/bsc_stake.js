@@ -94,7 +94,7 @@ export const bscStakePools = [
     earnContractAbi: govPoolABI,
     earnedOracle: 'tokens',
     earnedOracleId: 'CTENA',
-    partnership: false,
+    partnership: true,
     isMooStaked: true,
     status: 'active',
     fixedStatus: true,

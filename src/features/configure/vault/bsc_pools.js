@@ -105,7 +105,7 @@ export const bscPools = [
   {
     id: 'cakev2-cake-bnb',
     name: 'CAKE-BNB LP',
-    token: 'CAKE-BNB LP',
+    token: 'CAKE-BNB LP2',
     tokenDescription: 'PancakeSwap',
     tokenAddress: '0x0eD7e52944161450477ee417DE9Cd3a859b14fD0',
     tokenDecimals: 18,
@@ -119,6 +119,7 @@ export const bscPools = [
     oracleId: 'cakev2-cake-bnb',
     oraclePrice: 0,
     depositsPaused: false,
+    partnership: true,
     status: 'active',
     platform: 'PancakeSwap',
     assets: ['CAKE', 'BNB'],
