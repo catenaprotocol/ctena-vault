@@ -14,6 +14,8 @@ import { usePoolsTvl, useUserTvl } from '../../hooks/usePoolsTvl';
 import { formatGlobalTvl, formatGlobalTvl9 } from 'features/helpers/format';
 import { useFetchBifibuyback } from 'features/vault/redux/fetchBifiBuyback';
 import { getNetworkFriendlyName } from '../../../helpers/getNetworkData';
+import { updateLaunchpools } from "features/vault/redux/updateLaunchpools"
+import { useDispatch } from 'react-redux';
 
 const FETCH_INTERVAL_MS = 15 * 1000;
 
@@ -30,6 +32,11 @@ export default function Pools() {
   const { poolsTvl } = usePoolsTvl(pools);
   const { userTvl } = useUserTvl(pools, tokens);
   const classes = useStyles();
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(updateLaunchpools)
+  }, [])
 
   useEffect(() => {
     fetchApys();
