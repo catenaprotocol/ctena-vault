@@ -97,7 +97,16 @@ const Footer = () => {
           <i className={`fas fa-vote-yea ${classes.linkIcon}`}></i>
           <span>vote</span>
         </a>
- */}
+ */}   
+        <a
+          href="https://dex.ctena.finance"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          <i className={`fas fa-hand-holding-usd ${classes.linkIcon}`}></i>
+          <span>dex</span>
+        </a>
         <a
           href="https://vault.ctena.finance"
           target="_blank"

@@ -59,7 +59,7 @@ const networkFriendlyName = {
 };
 
 const networkBuyUrls = {
-  56: 'https://pancakeswap.finance/swap?outputCurrency=0x8f4fc37bff97e6e7fd4355a5df76a486ac1e2e1c',
+  56: 'https://dex.ctena.finance',
   128: 'https://ht.mdex.com/#/swap?inputCurrency=0xa71edc38d189767582c38a3145b5873052c3e47a&outputCurrency=0x765277eebeca2e31912c9946eae1021199b39c61',
   137: 'https://app.1inch.io/#/r/0xF4cb25a1FF50E319c267b3E51CBeC2699FB2A43B',
   250: 'https://spookyswap.finance/swap?inputCurrency=0x04068da6c83afcfa0e13ba15a6696662335d5b75&outputCurrency=0xd6070ae98b8069de6B494332d1A1a81B6179D960',
