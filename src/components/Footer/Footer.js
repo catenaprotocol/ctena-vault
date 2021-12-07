@@ -134,17 +134,7 @@ const Footer = () => {
         >
           <i className={`fas fa-hand-holding-usd ${classes.linkIcon}`}></i>
           <span>orchid</span>
-        </a>
-       <a
-          href="https://mint.xcbase.ctena.finance"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={classes.link}
-        >
-          <i className={`fas fa-hand-holding-usd ${classes.linkIcon}`}></i>
-          <span>mint</span>
-        </a> 
-         
+        </a>   
         <a
           href="https://featured.market/profile/ctenaprotocol"
           target="_blank"
@@ -172,10 +162,19 @@ const Footer = () => {
           <i className={`fas fa-hand-holding-usd ${classes.linkIcon}`}></i>
           <span>cryptoboy</span>
         </a>
+        <a
+          href="https://mint.xcbase.ctena.finance"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          <i className={`fas fa-hand-holding-usd ${classes.linkIcon}`}></i>
+          <span>mint xcbase</span>
+        </a> 
       </div>
 
       <div className={classes.column}>
-        <div className={classes.title}>{t('indexs')}</div>
+        <div className={classes.title}>{t('Tokens')}</div>
         <a
           href="https://www.xdao.app/56/dao/0xa7295305596a3E4953271585A8cB44DFfD069c24"
           target="_blank"
