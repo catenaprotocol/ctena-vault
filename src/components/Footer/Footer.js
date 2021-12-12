@@ -45,13 +45,13 @@ const Footer = () => {
         </a>
 
         <a
-          href="https://ctenaprotocol.kampsite.co/"
+          href="https://snapshot.org/#/ctena.eth"
           target="_blank"
           rel="noopener noreferrer"
           className={classes.link}
         >
           <i className={`fas fa-vote-yea  ${classes.linkIcon}`}></i>
-          <span>{t('proposal')}</span>
+          <span>{t('vote')}</span>
         </a>
 
         <a
@@ -88,16 +88,7 @@ const Footer = () => {
           <span>gov</span>
         </a>
 
-        {/*  <a
-          href="https://vote.beefy.finance"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={classes.link}
-        >
-          <i className={`fas fa-vote-yea ${classes.linkIcon}`}></i>
-          <span>vote</span>
-        </a>
- */}   
+ 
         <a
           href="https://dex.ctena.finance"
           target="_blank"
@@ -212,7 +203,7 @@ const Footer = () => {
           className={classes.link}
         >
           <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
-          <span>callt </span>
+          <span>calt </span>
         </a>
 
         <a
