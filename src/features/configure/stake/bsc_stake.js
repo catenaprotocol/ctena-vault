@@ -114,7 +114,7 @@ export const bscStakePools = [
   {
     id: 'cake-ctena-busd',
     name: 'CTENA',
-    logo: 'bnb-pairs/CTENA-BNB.png',
+    logo: 'bnb-pairs/CTENA-BUSD.png',
     token: 'CTENA-BUSD Cake LP',
     tokenDecimals: 18,
     tokenAddress: '0x380bce6e3097E1D6b45Fef2260d8B79E5Bd21458',
