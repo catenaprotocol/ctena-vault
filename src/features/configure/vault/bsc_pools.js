@@ -111,7 +111,7 @@ export const bscPools = [
     tokenAddress: '0x0eD7e52944161450477ee417DE9Cd3a859b14fD0',
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
-    earnedToken: 'ribbonCakeV2CAKE-BNB',
+    earnedToken: 'CtenaCakeCAKE-BNB',
     earnedTokenAddress: '0x36c8EA66B889353A4c062AdfA0Cc941626E1Bf08',
     earnContractAddress: '0x36c8EA66B889353A4c062AdfA0Cc941626E1Bf08',
     pricePerFullShare: 1,
