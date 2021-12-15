@@ -60,10 +60,6 @@ const PoolSummary = ({
     );
   }, [pool, launchpool, t]);
 
-  if (pool.id == 'cakev2-ctena-bnb'){
-    apy.vaultApr = 1000;
-  }
-
   const balanceUsd =
     balanceSingle > 0 && fetchVaultsDataDone ? formatTvl(balanceSingle, pool.oraclePrice) : '';
   const deposited = byDecimals9(
@@ -129,21 +125,27 @@ const PoolSummary = ({
             className={classes.itemInner}
           />
         </Grid>
-        <ApyStats
+        {pool.id != 'cakev2-ctena-bnb' ?
+          <ApyStats
           apy={apy}
           launchpoolApr={launchpoolApr}
           isLoading={!fetchApysDone}
           itemClasses={`${classes.item} ${classes.itemStats}`}
           itemInnerClasses={classes.itemInner}
-        />
-        <Grid item xs={4} className={`${classes.item} ${classes.itemStats}`}>
-          <LabeledStat
-            value={formatTvl(pool.tvl, pool.oraclePrice)}
-            label={t('Vault-TVL')}
-            isLoading={!fetchVaultsDataDone}
-            className={classes.itemInner}
           />
-        </Grid>
+        :
+        null
+        }
+
+        
+      </Grid>
+      <Grid item xs={4} className={`${classes.item} ${classes.itemStats}`}>
+        <LabeledStat
+          value={formatTvl(pool.tvl, pool.oraclePrice)}
+          label={t('Vault-TVL')}
+          isLoading={!fetchVaultsDataDone}
+          className={classes.itemInner}
+        />
       </Grid>
     </AccordionSummary>
   );
@@ -153,4 +155,6 @@ const formatDecimals = number => {
   return number >= 10 ? number.toFixed(4) : number.isEqualTo(0) ? 0 : number.toFixed(8);
 };
 
-export default PoolSummary;
+
+
+export default PoolSummary ;

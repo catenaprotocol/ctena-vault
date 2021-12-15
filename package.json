@@ -55,7 +55,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prepare": "husky install",
-    "postinstall": "patch-package"
+    "postinstall": "npx patch-package"
   },
   "eslintConfig": {
     "extends": "react-app"
