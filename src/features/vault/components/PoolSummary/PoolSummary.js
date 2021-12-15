@@ -60,6 +60,10 @@ const PoolSummary = ({
     );
   }, [pool, launchpool, t]);
 
+  if (pool.id == 'cakev2-ctena-bnb'){
+    apy.vaultApr = 1000;
+  }
+
   const balanceUsd =
     balanceSingle > 0 && fetchVaultsDataDone ? formatTvl(balanceSingle, pool.oraclePrice) : '';
   const deposited = byDecimals9(
