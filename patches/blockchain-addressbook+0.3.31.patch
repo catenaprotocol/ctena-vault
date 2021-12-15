@@ -1,0 +1,51 @@
+diff --git a/node_modules/blockchain-addressbook/build/address-book/bsc/tokens/tokens.js b/node_modules/blockchain-addressbook/build/address-book/bsc/tokens/tokens.js
+index e31fcf0..c7984ea 100644
+--- a/node_modules/blockchain-addressbook/build/address-book/bsc/tokens/tokens.js
++++ b/node_modules/blockchain-addressbook/build/address-book/bsc/tokens/tokens.js
+@@ -12,6 +12,46 @@ var BNB = {
+     logoURI: 'https://exchange.pancakeswap.finance/images/coins/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png',
+ };
+ var _tokens = {
++    CTENA: {
++        name: 'Ctena.finance',
++        symbol: 'CTENA',
++        address: '0x8f4fc37bff97e6e7fd4355a5df76a486ac1e2e1c',
++        chainId: 56,
++        decimals: 9,
++        website: 'https://ctena.finance/',
++        description: 'CTENA FINANCE',
++        logoURI: 'http://calt.ctena.finance/img/logo.png',
++      },
++      WCTENA: {
++        name: 'Ctena.finance',
++        symbol: 'WCTENA',
++        address: '0x16237cCBC2F3D7db3a176706407AF89254ebc025',
++        chainId: 56,
++        decimals: 9,
++        website: 'https://ctena.finance/',
++        description: 'CTENA FINANCE',
++        logoURI: 'http://calt.ctena.finance/img/logo.png',
++      },
++      CBASE: {
++        name: 'Cbase.ctena.finance',
++        symbol: 'CBASE',
++        address: '0x00ca13fc2b97805849db46547fe991c760c6bd33',
++        chainId: 56,
++        decimals: 9,
++        website: 'https://ctena.finance/',
++        description: 'CTENA FINANCE',
++        logoURI: 'http://calt.ctena.finance/img/logo.png',
++      },
++      XCBASE: {
++        name: 'icscbase.ctena.finance',
++        symbol: 'XCBASE',
++        address: '0x2c6297eb0ea253b0bfb06971c98066e853a1084c',
++        chainId: 56,
++        decimals: 9,
++        website: 'https://ctena.finance/',
++        description: 'CTENA FINANCE',
++        logoURI: 'http://calt.ctena.finance/img/logo.png',
++      },
+     ONG: {
+         name: 'Ontology Gas Token',
+         symbol: 'ONG',
