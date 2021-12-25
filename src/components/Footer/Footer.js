@@ -107,6 +107,24 @@ const Footer = () => {
           <i className={`fas fa-hand-holding-usd ${classes.linkIcon}`}></i>
           <span>vault</span>
         </a>
+        <a
+          href="https://wrap.ctena.finance"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          <i className={`fas fa-hand-holding-usd ${classes.linkIcon}`}></i>
+          <span>wrap</span>
+        </a>
+        <a
+          href="https://cbaseswap.ctena.finance"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          <i className={`fas fa-hand-holding-usd ${classes.linkIcon}`}></i>
+          <span>cbaseswap</span>
+        </a>
 
         <a
           href="https://workers.ctena.finance"
