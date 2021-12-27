@@ -23,7 +23,7 @@ export const bscPools = [
     addLiquidityUrl:
       'https://pancakeswap.finance/add/BNB/0xbcE2a84CED47b7f29c5a29e4d158294772cbA272',
     buyTokenUrl:
-      'https://dex.ctena.finance',
+      'https://dex.ctena.finance/#/BNB/CTENA',
   },
   {
     id: 'cakev2-wctena-bnb',
@@ -49,7 +49,7 @@ export const bscPools = [
     addLiquidityUrl:
       'https://pancakeswap.finance/add/BNB/0xbcE2a84CED47b7f29c5a29e4d158294772cbA272',
     buyTokenUrl:
-      'https://dex.ctena.finance',
+      'https://dex.ctena.finance/#/BNB/WCTENA',
   },
   {
     id: 'cakev2-cbase-bnb',
@@ -75,7 +75,7 @@ export const bscPools = [
     addLiquidityUrl:
       'https://pancakeswap.finance/add/BNB/0xbcE2a84CED47b7f29c5a29e4d158294772cbA272',
     buyTokenUrl:
-      'https://dex.ctena.finance',
+      'https://dex.ctena.finance/#/BNB/CBASE',
   },
   {
     id: 'ctena-maxi-v2',
@@ -108,7 +108,7 @@ export const bscPools = [
     stratType: 'SingleStake',
     withdrawalFee: '0.05%',
     buyTokenUrl:
-      'https://pancakeswap.finance/swap?outputCurrency=0x8f4fc37bff97e6e7fd4355a5df76a486ac1e2e1c',
+      'https://dex.ctena.finance/#/BNB/CTENA',
   },
   {
     id: 'cake-cakev2',
@@ -132,7 +132,7 @@ export const bscPools = [
     assets: ['CAKE'],
     withdrawalFee: '0.1%',
     buyTokenUrl:
-      'https://pancakeswap.finance/swap?outputCurrency=0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
+      'https://dex.ctena.finance/#/BNB/CAKE',
   },
   {
     id: 'cakev2-btcb-bnb',
@@ -158,7 +158,7 @@ export const bscPools = [
     addLiquidityUrl:
       'https://pancakeswap.finance/add/BNB/0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
     buyTokenUrl:
-      'https://pancakeswap.finance/swap?outputCurrency=0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
+      'https://dex.ctena.finance/#/BNB/BTCB',
   },
   {
     id: 'banana-eth-bnb',
@@ -184,7 +184,7 @@ export const bscPools = [
     addLiquidityUrl:
       'https://dex.apeswap.finance/#/add/ETH/0x2170Ed0880ac9A755fd29B2688956BD959F933F8',
     buyTokenUrl:
-      'https://dex.apeswap.finance/#/swap?outputCurrency=0x2170Ed0880ac9A755fd29B2688956BD959F933F8',
+      'https://dex.ctena.finance/#/BNB/ETH',
   },
   {
     id: 'cakev2-btcst-bnb',
@@ -246,7 +246,7 @@ export const bscPools = [
     addLiquidityUrl:
       'https://pancakeswap.finance/add/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82/BNB',
     buyTokenUrl:
-      'https://pancakeswap.finance/swap?outputCurrency=0x5B6DcF557E2aBE2323c48445E8CC948910d8c2c9',
+      'https://dex.ctena.finance/#/BNB/CAKE',
   },
   {
     id: 'cakev2-link-bnb',
