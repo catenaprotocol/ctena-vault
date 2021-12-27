@@ -188,13 +188,18 @@ const PoolDetails = ({ vaultId }) => {
               className={classes.itemInner}
             />
           </Grid>
+          {pool.id != 'cakev2-ctena-bnb' &&  pool.id != 'cakev2-wctena-bnb'  &&  pool.id != 'cakev2-cbase-bnb' ?
           <ApyStats
-            apy={apy}
-            launchpoolApr={launchpoolApr}
-            isLoading={!fetchApysDone}
-            itemClasses={`${classes.item} ${classes.itemStats}`}
-            itemInnerClasses={classes.itemInner}
+          apy={apy}
+          launchpoolApr={launchpoolApr}
+          isLoading={!fetchApysDone}
+          itemClasses={`${classes.item} ${classes.itemStats}`}
+          itemInnerClasses={classes.itemInner}
           />
+        :
+        null
+        
+        }
           <Grid item xs={4} className={`${classes.item} ${classes.itemStats}`}>
             <LabeledStat
               value={formatTvl(pool.tvl, pool.oraclePrice)}
