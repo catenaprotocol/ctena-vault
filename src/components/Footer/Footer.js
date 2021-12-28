@@ -253,7 +253,7 @@ const Footer = () => {
           <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
           <span>cbase </span>
         </a>
-        <a
+        {/* <a
           href="http://icscbase.ctena.finance"
           target="_blank"
           rel="noopener noreferrer"
@@ -261,7 +261,7 @@ const Footer = () => {
         >
           <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
           <span>xcbase </span>
-        </a> 
+        </a> */} 
       </div>
 
       <div className={classes.column}>
