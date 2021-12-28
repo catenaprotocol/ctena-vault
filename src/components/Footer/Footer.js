@@ -171,7 +171,7 @@ const Footer = () => {
           <i className={`fas fa-hand-holding-usd ${classes.linkIcon}`}></i>
           <span>cryptoboy</span>
         </a>
-        <a
+        {/* <a
           href="https://mint.xcbase.ctena.finance"
           target="_blank"
           rel="noopener noreferrer"
@@ -179,7 +179,7 @@ const Footer = () => {
         >
           <i className={`fas fa-hand-holding-usd ${classes.linkIcon}`}></i>
           <span>mint xcbase</span>
-        </a> 
+        </a> */} 
       </div>
 
       <div className={classes.column}>
