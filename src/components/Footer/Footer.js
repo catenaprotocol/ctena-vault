@@ -215,26 +215,6 @@ const Footer = () => {
         </a>
 
         <a
-          href="http://calt.ctena.finance"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={classes.link}
-        >
-          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
-          <span>calt </span>
-        </a>
-
-        <a
-          href="http://cstable.ctena.finance"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={classes.link}
-        >
-          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
-          <span>cstable </span>
-        </a>
-
-        <a
           href="http://wctena.ctena.finance"
           target="_blank"
           rel="noopener noreferrer"
