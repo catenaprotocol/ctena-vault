@@ -49,7 +49,7 @@ export const bscPools = [
     addLiquidityUrl:
       'https://pancakeswap.finance/add/BNB/0xbcE2a84CED47b7f29c5a29e4d158294772cbA272',
     buyTokenUrl:
-      'https://dex.ctena.finance/#/BNB/CTENA',
+      'https://dex.ctena.finance/#/BUSD/CTENA',
   },
   {
     id: 'cakev2-wctena-bnb',
