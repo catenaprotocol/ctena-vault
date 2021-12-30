@@ -61,15 +61,11 @@ const Header = ({ links, isNightMode, setNightMode }) => {
             {renderLink('vote', 'vote', 'vote-yea', classes)} 
             {renderLink('governance', 'gov', 'landmark', classes)} 
             {renderLink('workers', 'workers', 'hand-holding-usd', classes)}
+            {renderLink('dao', 'DAO', 'landmark', classes)}
             {renderLink('dashboard', 'dashboard', 'chart-bar', classes)} 
             {renderLink('stats', 'stats', 'chart-bar', classes)}
             {renderLink('docs', 'docs', 'book', classes)}
-            {/*  {renderLink('cdefi', 'cDEFI', 'hand-holding-usd', classes)}
-            {renderLink('calt', 'cALT', 'hand-holding-usd', classes)}
-            {renderLink('cstable', 'cSTABLE', 'hand-holding-usd', classes)}
-            {renderLink('nakamoto', 'NAKAMOTO', 'hand-holding-usd', classes)} */}
             {/*  {renderLink('cryptoboy', 'cryptoboy', 'book', classes)} */}
-            {/*  {renderLink('cryptoboy', 'nfts', 'book', classes)} */}
           </Hidden>
           <Link className={classes.btnBoost} to={`/${chain}/stake`}>
             Stake
@@ -113,7 +109,7 @@ const Header = ({ links, isNightMode, setNightMode }) => {
           <div className={classes.appResponsive}>{links}</div>
           <div style={{ textAlign: 'center' }}>
             <LinkSidebar name="vote" label="vote" icon="vote-yea" classes={classes} />
-
+            <LinkSidebar name="dao" label="DAO" icon="landmark" classes={classes} />
             <LinkSidebar name="governance" label="gov" icon="landmark" classes={classes} />
             <LinkSidebar name="workers" label="workers" icon="hand-holding-usd" classes={classes} />
             <LinkSidebar
@@ -161,16 +157,10 @@ const getLinkUrl = name => {
     return 'https://catena-protocol.gitbook.io/catena-protocol/';
   } else if (name === 'stats') {
     return 'https://stats.ctena.finance';
-  } else if (name === 'cdefi') {
-    return 'https://cdefi.ctena.finance';
-  } else if (name === 'calt') {
-    return 'https://calt.ctena.finance';
-  } else if (name === 'nakamoto') {
-    return 'https://nakamoto.ctena.finance';
-  } else if (name === 'cstable') {
-    return 'https://cstable.ctena.finance';
   } else if (name === 'vote') {
     return 'https://snapshot.org/#/ctena.eth';
+  } else if (name === 'dao') {
+    return 'https://www.xdao.app/56/dao/0xa7295305596a3E4953271585A8cB44DFfD069c24';
   } else {
     return `https://${name}.ctena.finance`;
   }

@@ -144,7 +144,7 @@ const Footer = () => {
           <i className={`fas fa-hand-holding-usd ${classes.linkIcon}`}></i>
           <span>orchid</span>
         </a>   
-        <a
+        {/* <a
           href="https://featured.market/profile/ctenaprotocol"
           target="_blank"
           rel="noopener noreferrer"
@@ -152,7 +152,7 @@ const Footer = () => {
         >
           <i className={`fas fa-hand-holding-usd ${classes.linkIcon}`}></i>
           <span>marketplace</span>
-        </a>
+        </a> */}
         <a
           href="https://featured.market/profile/ctenaprotocol"
           target="_blank"
@@ -193,27 +193,6 @@ const Footer = () => {
           <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
           <span>DAO</span>
         </a>
-
-        <a
-          href="http://nakamoto.ctena.finance"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={classes.link}
-        >
-          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
-          <span>nakamoto </span>
-        </a>
-
-        <a
-          href="http://cdefi.ctena.finance"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={classes.link}
-        >
-          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
-          <span>cdefi </span>
-        </a>
-
         <a
           href="http://wctena.ctena.finance"
           target="_blank"
