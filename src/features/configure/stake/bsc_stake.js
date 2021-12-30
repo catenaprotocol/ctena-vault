@@ -113,7 +113,7 @@ export const bscStakePools = [
   },
   {
     id: 'ctena-cakev2-ctena-bnb',
-    name: 'CTENA',
+    name: 'Ctena Protocol',
     logo: 'bnb-pairs/CTENA-BNB.png',
     token: 'CtenaCakeCtena-BNB',
     tokenDecimals: 18,
