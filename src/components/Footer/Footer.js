@@ -135,7 +135,7 @@ const Footer = () => {
           <i className={`fas fa-hand-holding-usd ${classes.linkIcon}`}></i>
           <span>workers</span>
         </a>
-        <a
+        {/* <a
           href="https://orchid.ctena.finance"
           target="_blank"
           rel="noopener noreferrer"
@@ -143,7 +143,7 @@ const Footer = () => {
         >
           <i className={`fas fa-hand-holding-usd ${classes.linkIcon}`}></i>
           <span>orchid</span>
-        </a>   
+        </a>  */}  
         {/* <a
           href="https://featured.market/profile/ctenaprotocol"
           target="_blank"

@@ -31,6 +31,7 @@ export const shouldHideFromHarvest = vaultName => {
 };
 
 const HarvestBlacklistVaultIds = [
+   'cakev2-cbase-busd',
    'ctena-maxi-v2',
    'cakev2-ctena-bnb',
    'cakev2-ctena-busd',
